@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url(./pexels-marek-piwnicki-11516441.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background color */
+  
+  
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.background{
+    background-image: url('./background.jpg');
+    
+    width: 200px;
+    height: 210px;
+
+}
+
+
+h1 {
+  font-family: 'Paytone One';
+  text-align: center;  
+  color: #ffffff;
+}
+
+p {
+  color: #000000;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(13px);
+  border-radius: 15px;
+  border: 3px white;
+  box-shadow: 0px 0px 10px #7115a2;
+  transition: box-shadow 0.3s ease; /* Adding transition for a smooth effect */
+    transition: transform 0.5s;
+}
+
+.form-container:hover {
+    transform: scale(1.01);
+  box-shadow: 0px 0px 10px rgb(247, 247, 247); /* Adjust the hover box-shadow as needed */
+}
+
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.form-group input {
+  width: 97%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #842b2b;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.cta-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(to right, rgb(255, 121, 121), rgb(75, 111, 155), rgb(185, 20, 214)); /* Gradient background */
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease;
+
+}
+.cta-button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Glow effect on hover */
+}
